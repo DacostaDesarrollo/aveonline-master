@@ -1,0 +1,8 @@
+body:not(.wc_contraentrega_on) [id*="wc_contraentrega_on"],
+body:not(.wc_contraentrega_on) [id*="wc_contraentrega_on"] + label{
+	display: none !important;
+}
+body.wc_contraentrega_on [id*="wc_contraentrega_off"],
+body.wc_contraentrega_on [id*="wc_contraentrega_off"] + label{
+	display: none !important;
+}
